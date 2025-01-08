@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-image: url(images/background.jpg)
+    }
+</style>
+<body>
+    <header class="bg-ligt text-white p-3">
+        <!-- Thanh điều hướng -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">PhoneStore</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="col-md-3">
+                    <div class="col-md-12">
+                      <form class="d-flex w-100" role="search">
+                        <input type="text" class="me-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Tìm kiếm</button>
+                      </form>
+                    </div>
+                  </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Đăng nhập</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register.html">Đăng ký</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cart.html">Giỏ hàng</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Liên hệ</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sản Phẩm
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                              <li><a class="dropdown-item" href="#">Iphone</a></li>
+                              <li><a class="dropdown-item" href="#">Samsung</a></li>
+                              <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                              <li><a class="dropdown-item" href="#">Realmi</a></li>
+                              <li><a class="dropdown-item" href="#">Nokia</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+    <!-- Sản phẩm -->
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Danh sách sản phẩm</h1>
+        <div id="product-list" class="row g-4">
+          </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        © 2024 PhoneShop. All rights reserved.
+    </footer>
+
+    <script src="javascript/products.js"></script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>

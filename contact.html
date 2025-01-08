@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-image: url(images/background.jpg)
+    }
+</style>
+<body>
+    <header class="bg-ligt text-white p-3">
+        <!-- Thanh điều hướng -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">PhoneStore</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                          <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Đăng nhập</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register.html">Đăng ký</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cart.html">Giỏ hàng</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Sản Phẩm</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+  <div class="container mt-4">
+    <h1 class="text-center mb-4">Liên hệ với chúng tôi</h1>
+
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Username</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Gửi</button>
+        </form>
+      </div>
+    </div>
+
+    <h3 class="text-center mt-4">Thông tin liên hệ</h3>
+    <p class="text-center">
+      Địa chỉ: 123 Đường ABC, Thành phố Hồ Chí Minh<br>
+      Số điện thoại: 0901 234 567<br>
+      Email: support@gmail.com
+    </p>
+  </div>
+  <footer class="bg-dark text-white text-center py-3">
+    © 2024 PhoneShop. All rights reserved.
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
